@@ -28,7 +28,7 @@
 # MyHashMap
 
 Это пример реализации **ассоциативного массива** (или **словаря**, **Map**) на Python с использованием **хеш-таблицы** и метода **цепочек** (chaining).  
-Код расположен в файле [`MyHashMap.py`](../MyHashMap.py). Тесты, написанные на **pytest**, — в файле [`test_MyHashMap.py`](../test_MyHashMap.py).
+Код расположен в файле [`MyHashMap.py`](MyHashMap.py). Тесты, написанные на **pytest**, — в файле [`test_MyHashMap.py`](test_MyHashMap.py).
 
 ## Необходимые и достаточные операции
 
