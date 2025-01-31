@@ -154,9 +154,6 @@ class AVLTree:
         elif key > node.key:
             node.right = self._insert_recursive(node.right, key)
         else:
-            # Допустим, мы не храним дубликаты ключей,
-            # поэтому ничего не делаем или выбрасываем исключение
-            # raise ValueError("Ключ уже существует!")
             return node
 
         # Балансируем и возвращаем корень
